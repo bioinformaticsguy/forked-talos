@@ -93,3 +93,29 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+
+## large file skip data
+
+/large_files/Homo_sapiens.GRCh38.113.gff3.gz
+/large_files/AlphaMissense_hg38.tsv.gz
+/large_files/MANE.GRCh38.v1.4.summary.txt.gz
+/large_files/clinvarbitration.tar.gz
+/large_files/genes_to_phenotype.txt
+/large_files/gnomad_4.1_region_merged_GRCh38_whole_genome
+/large_files/hp.obo
+/large_files/phenio.db
+/large_files/ref.fa
+
+## Ignore data and output.
+/data
+/output
+/temp_data
+
+# Ignore outputs
+/nextflow
+
+# Ignore nextflow files
+.nextflow.log*
+.nextflow
+/work
