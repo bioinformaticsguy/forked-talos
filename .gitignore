@@ -120,6 +120,7 @@ dmypy.json
 .nextflow.log*
 .nextflow
 /work
+/ped_files
 
 
 ## Ignore Images
