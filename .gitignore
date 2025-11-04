@@ -125,3 +125,7 @@ dmypy.json
 
 ## Ignore Images
 talos_8.2.0.sif
+
+
+## Ignore logs
+/logs
