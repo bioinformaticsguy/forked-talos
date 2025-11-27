@@ -2,14 +2,14 @@
 
 # Script to generate a pedigree.ped file from VCF files in a data directory
 # Usage: ./generate_pedigree.sh <data_path> <output_pedigree_file> <hpo_terms>
-# Example: ./generate_pedigree.sh /path/to/data /path/to/pedigree.ped "HP:0000062,HP:0000037,HP:0012245"
+# Example: ./generate_pedigree.sh /path/to/data /path/to/pedigree.ped "HP:0000032,HP:0000062,HP:0010458,HP:0000046,HP:0000137"
 
 # Check arguments
 if [ $# -ne 3 ]; then
     echo "Usage: $0 <data_path> <output_pedigree_file> <hpo_terms>"
     echo "  data_path: Directory containing VCF files"
     echo "  output_pedigree_file: Full path to output pedigree.ped file"
-    echo "  hpo_terms: Comma-separated HPO terms (e.g., 'HP:0000062,HP:0000037,HP:0012245')"
+    echo "  hpo_terms: Comma-separated HPO terms (e.g., 'HP:0000032,HP:0000062,HP:0010458,HP:0000046,HP:0000137')"
     exit 1
 fi
 
