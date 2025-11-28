@@ -36,6 +36,12 @@ Examples:
 
 Real Example:
   sbatch run_annot_talos.slurm --run both --large_files large_files/ --input_vcf_dir data/multi_sample_vcf/ --pedigree ped_files/multi_sample_vcf_pedgree.ped 
+  sbatch run_annot_talos.slurm --run talos --large_files large_files/ --input_vcf_dir data/full_cohort/ --pedigree ped_files/full_cohort.ped 
+
+
+## Important Notes:
+  - Before Running Talos ensure that you have the latest ClinvArbitration from this link https://zenodo.org/records/17577130
+
 
 EOF
 }
