@@ -1,3 +1,7 @@
+# Disable the 2-month freshness check on the ClinvArbitration file.
+# Remove this line once you have downloaded the latest ClinvArbitration release.
+clinvar_check_age = false
+
 [GeneratePanelData]
 default_panel = 137
 panelapp = "https://panelapp-aus.org/api/v1/panels"
